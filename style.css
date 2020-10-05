@@ -1,0 +1,27 @@
+.cardContainer {
+   
+    border: 1px solid  #386f81;
+    border-radius: 4px;
+    display:flex;
+  }
+  .card {
+    
+    border: 1px solid #386f81;
+    border-radius: 10px;
+    border: none;
+    border-radius: 0;
+    border-left: 1px solid #386f81 ;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    flex-grow:40;
+    flex-basis:450px ;
+  }
+
+  
+.cardDescriptionText {
+    color: #137599;
+    font-size: 40px;
+    text-align: center;
+    max-width: calc(100% - 30px);
+  }

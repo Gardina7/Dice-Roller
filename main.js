@@ -15,7 +15,7 @@ console.log (diceCount)
 //  const list = document.querySelector('#"Allrolls"');
 //  list.innerHTML='';
  
-var numbers = ['1','2','3','4','5','6'];
+var numbers = [1,2,3,4,5,6];
 for (var i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
 }
